@@ -26,6 +26,7 @@ body {
     height: 70%; /* Adjust the max-width as per your logo size */
     margin-left: 20px;
     padding: 5px;
+    border-radius: 50%;
 }
 
 /* Add this to your existing CSS or adjust it as needed */
@@ -126,13 +127,11 @@ body {
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
-    /* border-radius: 34px; */
 }
 
 .songItem img{
     width: 43px;
     margin: 0 23px;
-    /* border-radius: 34px; */
 }
     
 .timestamp{
@@ -145,6 +144,7 @@ body {
 
 .audioPlayer {
     width: 60%; /* Set the width of the audio player to 3/5 of the page */
+    height: calc(100vh - 70px);
     margin: 0;
     padding: 20px;
     background: #2c3e50;
