@@ -1,4 +1,4 @@
-# Clonify
+# GrooveBox
 This is my own music player website.
 All the songs and cover images here are of my own database.
 No API is used for the songs.
